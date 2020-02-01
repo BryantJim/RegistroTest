@@ -1,0 +1,20 @@
+﻿<Window x:Class="RegistroIncripcion.UI.IncribirEstudiante"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegistroIncripcion.UI"
+        mc:Ignorable="d"
+        Title="Inscribir Estudiante" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF7FAFB"/>
+                <GradientStop Color="#FF68ADD4" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Height="27" Margin="80,85,0,0" Text="Estudiante Id" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
+        <Button Content="Atrás" HorizontalAlignment="Left" Height="33" Margin="62,24,0,0" VerticalAlignment="Top" Width="67" AutomationProperties.IsOffscreenBehavior="Default" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Center" ScrollViewer.HorizontalScrollBarVisibility="Visible" VerticalContentAlignment="Center" Click="Button_Click" Background="#FFFFFBFB" FlowDirection="RightToLeft" Padding="1,1,15,1"/>
+
+    </Grid>
+</Window>
